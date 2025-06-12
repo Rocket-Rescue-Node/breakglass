@@ -1,0 +1,6 @@
+# Rules here will be added to the breakglass iptables chain
+# Each rule should be a valid iptables rule without the chain specification
+# Format: <iptables match criteria> -j <ACTION>
+
+# Example: Allow SSH access from a specific IP
+# -p tcp -s 192.168.1.100 --dport 22 -j ACCEPT
